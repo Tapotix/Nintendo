@@ -1,5 +1,6 @@
 package test;
 
+<<<<<<< HEAD
 import metier.Jeu;
 import metier.Console;
 
@@ -20,6 +21,12 @@ public class Test {
 		Jeu j4 = new Jeu("Final Fantasy 7", c4);
 		Jeu j5 = new Jeu("Super Mario Sunshine", c5);
 		
+=======
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+>>>>>>> Client
 
 	}
 
