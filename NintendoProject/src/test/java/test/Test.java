@@ -1,6 +1,7 @@
 package test;
 
 import metier.Jeu;
+import metier.Client;
 import metier.Console;
 
 public class Test {
@@ -18,8 +19,9 @@ public class Test {
 		Jeu j3 = new Jeu("MarioKart", c3);
 		Jeu j4 = new Jeu("Final Fantasy 7", c4);
 		Jeu j5 = new Jeu("Super Mario Sunshine", c5);
-
-
+		
+		Client cl1 = new Client ("Moha","Kant");
+		Client cl2 = new Client ("Rose","Queen");
 
 
 	}
