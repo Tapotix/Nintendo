@@ -3,9 +3,9 @@ package metier;
 public class Boutique {
 	
 	private String nom;
-	private String adresse;
+	private Adresse adresse;
 	
-	public Boutique(String nom, String adresse) {
+	public Boutique(String nom, Adresse adresse) {
 		
 		this.nom = nom;
 		this.adresse = adresse;
@@ -14,13 +14,13 @@ public class Boutique {
 	public String getNom() {
 		return nom;
 	}
-	public String getAdresse() {
+	public Adresse getAdresse() {
 		return adresse;
 	}
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
-	public void setAdresse(String adresse) {
+	public void setAdresse(Adresse adresse) {
 		this.adresse = adresse;
 	}
 

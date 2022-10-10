@@ -1,6 +1,8 @@
 package test;
 
 import metier.Jeu;
+import metier.Adresse;
+import metier.Boutique;
 import metier.Console;
 
 public class Test {
@@ -19,6 +21,8 @@ public class Test {
 		Jeu j4 = new Jeu("Final Fantasy 7", c4);
 		Jeu j5 = new Jeu("Super Mario Sunshine", c5);
 
+		Adresse adresse1 = new Adresse ("7", "rue victor hugo", "paris");
+		Boutique boutique1 = new Boutique("shop", adresse1); 
 
 
 
