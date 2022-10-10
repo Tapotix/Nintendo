@@ -23,11 +23,11 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Console c1 = new Console("PC");
-		Console c2 = new Console("XBOX360");
-		Console c3 = new Console("Wii");
-		Console c4 = new Console("PS1");
-		Console c5 = new Console("Gamecube");
+		Salon c1 = new Salon("PC");
+		Hybride c2 = new Hybride("Switch");
+		Portable c3 = new Portable("DS");
+		Salon c4 = new Salon("PS1");
+		Salon c5 = new Salon("Gamecube");
 
 		Jeu j1 = new Jeu("WoW", c1);
 		Jeu j2 = new Jeu("Fallout New Vegas", c2);
@@ -55,7 +55,7 @@ public class Test {
 		Collections.addAll(achats, a1,a2);
 		
 		Client cl1 = new Client ("Moha","Kant",achats);
-		Client cl2 = new Client ("Rose","Queen",);
+		Client cl2 = new Client ("Rose","Queen");
 		
 		
 		
