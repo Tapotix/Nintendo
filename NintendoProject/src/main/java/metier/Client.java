@@ -10,11 +10,19 @@ public class Client {
 	private String nom;
 	private List<Achat> achats=new ArrayList();
 	
-	public Client(String prenom, String nom) {
+	
+	
+	public Client(String prenom, String nom, List<Achat> achats) {
 		super();
 		this.prenom = prenom;
 		this.nom = nom;
 		this.achats = achats;
+	}
+	
+	public Client(String prenom, String nom) {
+		super();
+		this.prenom = prenom;
+		this.nom = nom;
 	}
 	
 	public String getPrenom() {
