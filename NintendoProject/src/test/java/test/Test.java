@@ -1,6 +1,13 @@
 package test;
 
 import metier.Jeu;
+import model.Matiere;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import metier.Achat;
 import metier.Client;
 import metier.Console;
 
@@ -20,10 +27,20 @@ public class Test {
 		Jeu j4 = new Jeu("Final Fantasy 7", c4);
 		Jeu j5 = new Jeu("Super Mario Sunshine", c5);
 		
-		Client cl1 = new Client ("Moha","Kant");
-		Client cl2 = new Client ("Rose","Queen");
-
-
+		Achat a1 = new Achat(j1,"2022-10-10",50);
+		Achat a2 = new Achat(j2,"2022-10-15",60);
+		
+		List<Achat> achats = new ArrayList();
+		Collections.addAll(achats, a1,a2);
+		
+		Client cl1 = new Client ("Moha","Kant",achats);
+		Client cl2 = new Client ("Rose","Queen",);
+		
+		
+		
+		
+		
+		
 	}
 }
 
