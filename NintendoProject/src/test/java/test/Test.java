@@ -1,18 +1,14 @@
 package test;
 
 import metier.Jeu;
-<<<<<<< Updated upstream
-import model.Matiere;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import metier.Achat;
-=======
 import metier.Portable;
 import metier.Salon;
->>>>>>> Stashed changes
 import metier.Client;
 import metier.Hybride;
 
@@ -39,7 +35,7 @@ public class Test {
 		Collections.addAll(achats, a1,a2);
 		
 		Client cl1 = new Client ("Moha","Kant",achats);
-		Client cl2 = new Client ("Rose","Queen",);
+		Client cl2 = new Client ("Rose","Queen");
 		
 		
 		
